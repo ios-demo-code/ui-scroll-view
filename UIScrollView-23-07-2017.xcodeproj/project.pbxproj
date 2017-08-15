@@ -12,6 +12,8 @@
 		822AA0F71F243C280051F7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822AA0F51F243C280051F7AB /* Main.storyboard */; };
 		822AA0F91F243C280051F7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 822AA0F81F243C280051F7AB /* Assets.xcassets */; };
 		822AA0FC1F243C280051F7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 822AA0FA1F243C280051F7AB /* LaunchScreen.storyboard */; };
+		822AA1041F2444240051F7AB /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822AA1031F2444240051F7AB /* Feature.xib */; };
+		822AA1061F2445680051F7AB /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 822AA1051F2445680051F7AB /* FeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		822AA0F81F243C280051F7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		822AA0FB1F243C280051F7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		822AA0FD1F243C280051F7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		822AA1031F2444240051F7AB /* Feature.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Feature.xib; sourceTree = "<group>"; };
+		822AA1051F2445680051F7AB /* FeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				822AA0F81F243C280051F7AB /* Assets.xcassets */,
 				822AA0FA1F243C280051F7AB /* LaunchScreen.storyboard */,
 				822AA0FD1F243C280051F7AB /* Info.plist */,
+				822AA1031F2444240051F7AB /* Feature.xib */,
+				822AA1051F2445680051F7AB /* FeatureView.swift */,
 			);
 			path = "UIScrollView-23-07-2017";
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822AA1041F2444240051F7AB /* Feature.xib in Resources */,
 				822AA0FC1F243C280051F7AB /* LaunchScreen.storyboard in Resources */,
 				822AA0F91F243C280051F7AB /* Assets.xcassets in Resources */,
 				822AA0F71F243C280051F7AB /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				822AA1061F2445680051F7AB /* FeatureView.swift in Sources */,
 				822AA0F41F243C280051F7AB /* ViewController.swift in Sources */,
 				822AA0F21F243C280051F7AB /* AppDelegate.swift in Sources */,
 			);
